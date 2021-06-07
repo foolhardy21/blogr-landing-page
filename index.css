@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+/*
+font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 2vh 5vw 0 5vw;
+  background-image: linear-gradient(90deg,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-details {
+  display: flex;
+}
+
+.drop-down-menu {
+  padding: 0;
+  padding-left: 2.5vmin;
+  display: flex;
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.25vmax;
+  text-transform: capitalize;
+  color: hsl(0, 0%, 100%);
+
+}
+.drop-down-menu li {
+  padding-left: 4.5vmin;
+  list-style: none;
+}
+.login-btn {
+  text-transform: capitalize;
+  font-family: 'Overpass',sans-serif;
+  font-size: 1vmax;
+  font-weight: 600;
+  background-color: transparent;
+  border-style: none;
+  color: hsl(0,0%,100%);
+
+}
+.signup-btn {
+  text-transform: capitalize;
+  font-family: 'Overpass',sans-serif;
+  font-size: 1vmax;
+  font-weight: 600;
+  background-color: hsl(0,0%,100%);
+  border-style: none;
+  color: hsl(356, 100%, 66%);
+  border-radius: 105px;
+  padding: 1em 1.5em;
+}
