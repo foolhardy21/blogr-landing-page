@@ -8,18 +8,23 @@ font-family: 'Ubuntu', sans-serif;*/
 }
 
 header {
-  padding: 2vh 5vw 0 5vw;
-  background-image: linear-gradient(90deg,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+  padding: 2vh 5vw 20vmin 5vw;
+  background-image: url('./images/bg-pattern-intro.svg'), linear-gradient(90deg,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+  border-bottom-left-radius: 100px;
+  background-size: 205vmax 200vmax;
+  background-position: 15% 52%, 60% 0%;
 }
 
 header > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15vmin;
 }
 
 .company-details {
   display: flex;
+  align-items: center;
 }
 
 .drop-down-menu {
@@ -56,4 +61,54 @@ header > nav {
   color: hsl(356, 100%, 66%);
   border-radius: 105px;
   padding: 1em 1.5em;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  font-size: 3vmax;
+  color: hsl(0,0%,100%);
+
+}
+.heading span {
+  text-transform: capitalize;
+}
+
+.subheading {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  color: hsl(0,0%,100%);
+}
+.subheading span {
+  text-transform: capitalize;
+}
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vmin;
+}
+.startfree-btn {
+  background-color: hsl(0,0%,100%);
+  border-style: none;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: hsl(356, 100%, 66%);
+  padding: 1em 1.1em;
+  border-radius: 105px;
+  margin-right: 1vmin;
+}
+.startfree-btn span {
+  text-transform: capitalize;
+}
+.learnmore-btn {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  background-color: transparent;
+  border-color: hsl(0,0%,100%);
+  border-width: thin;
+  border-style: solid;
+  border-radius: 105px;
+  color: hsl(0,0%,100%);
+  padding: 1em 1.5em;
+  text-transform: capitalize;
 }
