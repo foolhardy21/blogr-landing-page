@@ -44,6 +44,9 @@ header > nav {
   cursor: pointer;
   text-decoration: underline;
 }
+.drop-down-menu li:hover ~ img {
+  transform: scaleY(-1);
+}
 .login-btn {
   text-transform: capitalize;
   font-family: 'Overpass',sans-serif;
