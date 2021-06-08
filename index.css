@@ -182,7 +182,7 @@ header > nav {
 
 .feat-section {
   margin-top: 20vmin;
-  height: 110vh;
+  height: 90vh;
   background-image: url('./images/illustration-laptop-desktop.svg');
   background-repeat: no-repeat;
   background-size: 50vmax 40vmax;
@@ -204,4 +204,27 @@ header > nav {
   font-size: 1vmax;
   line-height: 3.5vmin;
   color: hsl(207, 13%, 34%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-right:20vw;
+  padding-top: 2.5vmax;
+  padding-bottom: 3vmax;
+  background: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+  font-family: 'Overpass', sans-serif;
+  font-size: 0.9vmax;
+  border-top-right-radius: 100px;
+}
+footer .head-point {
+  margin-bottom: 4vmin;
+  font-weight: bold;
+}
+footer li {
+  text-transform: capitalize;
+  list-style: none;
+  line-height: 25px;
 }
