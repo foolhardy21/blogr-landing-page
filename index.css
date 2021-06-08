@@ -7,6 +7,7 @@ font-family: 'Ubuntu', sans-serif;*/
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 header {
@@ -40,7 +41,6 @@ header > nav {
   padding-left: 110px;
 }
 .drop-down1-content, .drop-down2-content, .drop-down3-content  {
-    display: none;
     margin-left: 2.5vmin;
     padding: 2vmin 3.2vmin;
     border-radius: 5px;
@@ -49,6 +49,7 @@ header > nav {
     line-height: 25px;
     text-transform: capitalize;
     background: hsl(0,0%,100%);
+    display: none;
 }
 .drop-down-content li {
   list-style: none;
@@ -62,20 +63,10 @@ header > nav {
   cursor: pointer;
   text-decoration: underline;
 }
-.drop-down1:hover .drop-down-content {
+.drop-down1:hover .drop-down1-content {
   display: block;
 }
-/* .drop-down-menu li {
-  padding-left: 4.5vmin;
-  list-style: none;
-}
-.drop-down-menu li:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-.drop-down-menu li:hover ~ img {
-  transform: scaleY(-1);
-} */
+
 .login-btn {
   text-transform: capitalize;
   font-family: 'Overpass',sans-serif;
