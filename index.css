@@ -112,3 +112,38 @@ header > nav {
   padding: 1em 1.5em;
   text-transform: capitalize;
 }
+
+.future-design-section {
+  height: 100vh;
+  margin-top: 10vmax;
+  background-image: url('./images/illustration-editor-desktop.svg');
+  background-size: 60vmax 50vmax;
+  background-repeat: no-repeat;
+  background-position: 150% 00%;
+}
+
+.future-design-section h3 {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(208, 49%, 24%);
+  text-align: center;
+  font-size: 2vmax;
+  margin-bottom: 8vmax;
+}
+
+.future-design-section article {
+  margin-left: 8vmax;
+  width: 40vw;
+  margin-bottom: 5vmax;
+}
+.future-design-section h4 {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(208, 49%, 24%);
+  font-size: 1.5vmax;
+}
+.future-design-section p {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1vmax;
+  line-height: 3.5vmin;
+  color: hsl(207, 13%, 34%);
+
+}
