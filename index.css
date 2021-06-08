@@ -5,6 +5,8 @@ font-family: 'Overpass', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -19,7 +21,6 @@ header > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15vmin;
 }
 
 .company-details {
@@ -27,16 +28,44 @@ header > nav {
   align-items: center;
 }
 
-.drop-down-menu {
-  padding: 0;
-  padding-left: 2.5vmin;
-  display: flex;
+.drop-down1, .drop-down2, .drop-down3  {
+  padding-left: 6vmin;
   font-family: 'Overpass', sans-serif;
   font-size: 1vmax;
   text-transform: capitalize;
   color: hsl(0, 0%, 100%);
 }
-.drop-down-menu li {
+.drop-down-content {
+  display: flex;
+  padding-left: 110px;
+}
+.drop-down1-content, .drop-down2-content, .drop-down3-content  {
+    display: none;
+    margin-left: 2.5vmin;
+    padding: 2vmin 3.2vmin;
+    border-radius: 5px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 0.8vmax;
+    line-height: 25px;
+    text-transform: capitalize;
+    background: hsl(0,0%,100%);
+}
+.drop-down-content li {
+  list-style: none;
+}
+.drop-down-content li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+.drop-down1:hover, .drop-down2:hover, .drop-down3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.drop-down1:hover .drop-down-content {
+  display: block;
+}
+/* .drop-down-menu li {
   padding-left: 4.5vmin;
   list-style: none;
 }
@@ -46,7 +75,7 @@ header > nav {
 }
 .drop-down-menu li:hover ~ img {
   transform: scaleY(-1);
-}
+} */
 .login-btn {
   text-transform: capitalize;
   font-family: 'Overpass',sans-serif;
@@ -75,6 +104,7 @@ header > nav {
 }
 
 .heading {
+  padding-top: 15vmin;
   text-align: center;
   font-family: 'Overpass', sans-serif;
   font-size: 3vmax;
