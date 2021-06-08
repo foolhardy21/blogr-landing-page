@@ -32,14 +32,17 @@ header > nav {
   padding-left: 2.5vmin;
   display: flex;
   font-family: 'Overpass', sans-serif;
-  font-size: 1.25vmax;
+  font-size: 1vmax;
   text-transform: capitalize;
   color: hsl(0, 0%, 100%);
-
 }
 .drop-down-menu li {
   padding-left: 4.5vmin;
   list-style: none;
+}
+.drop-down-menu li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 .login-btn {
   text-transform: capitalize;
@@ -61,6 +64,11 @@ header > nav {
   color: hsl(356, 100%, 66%);
   border-radius: 105px;
   padding: 1em 1.5em;
+}
+.signup-btn:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: hsl(0,0%,100%);
+  cursor: pointer;
 }
 
 .heading {
@@ -100,6 +108,12 @@ header > nav {
 .startfree-btn span {
   text-transform: capitalize;
 }
+.startfree-btn:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: hsl(0,0%,100%);
+  cursor: pointer;
+}
+
 .learnmore-btn {
   font-family: 'Overpass', sans-serif;
   font-weight: 300;
@@ -111,6 +125,12 @@ header > nav {
   color: hsl(0,0%,100%);
   padding: 1em 1.5em;
   text-transform: capitalize;
+}
+.learnmore-btn:hover {
+  background-color: hsl(0,0%,100%);
+  color: hsl(356, 100%, 66%);
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .future-design-section {
@@ -227,4 +247,8 @@ footer li {
   text-transform: capitalize;
   list-style: none;
   line-height: 25px;
+}
+footer .button-type:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
