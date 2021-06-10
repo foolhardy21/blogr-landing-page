@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo URL](https://github.com/foolhardy21/blogr-landing-page)
-- Live Site URL: [Site URL](https://your-live-site-url.com)
+- Live Site URL: [Site URL](https://foolhardy21.github.io/blogr-landing-page/)
 
 ## My process
 
