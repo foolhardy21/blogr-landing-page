@@ -225,7 +225,7 @@ header nav {
   width: 30vw;
   margin-left: 10vmin;
 }
-.infra-section h1 {
+.infra-section h3 {
   font-family: 'Overpass', sans-serif;
   color: hsl(0,0%,100%);
   font-size: 2vmax;
@@ -250,7 +250,7 @@ header nav {
   margin-left: 50vw;
   width: 40vw;
 }
-.feat-section h1 {
+.feat-section h3 {
   margin-top: 10vmin;
   font-family: 'Overpass', sans-serif;
   font-size: 1.5vmax;

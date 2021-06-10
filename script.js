@@ -11,18 +11,16 @@ removeHamburger(minWidth)
 function addHamburger(width) {
   if(width.matches) {
 
-    const logoBar = document.querySelector('[comp-detail]')
     hamburgerLogo.src = './images/icon-hamburger.svg'
+    hamburgerLogo.alt='menu-icon'
 
-    logoBar.appendChild(hamburgerLogo)
-
+    document.getElementsByClassName('company-details')[0].appendChild(hamburgerLogo)
   }
 
 }
 
 function removeHamburger(width) {
   if(width.matches) {
-    //console.log(hamburgerLogo)
     hamburgerLogo.remove()
   }
 }
