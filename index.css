@@ -36,34 +36,40 @@ header > nav {
   text-transform: capitalize;
   color: hsl(0, 0%, 100%);
 }
-.drop-down-content {
+/* .drop-down-content {
   display: flex;
   padding-left: 110px;
-}
+} */
 .drop-down1-content, .drop-down2-content, .drop-down3-content  {
-    margin-left: 2.5vmin;
     padding: 2vmin 3.2vmin;
     border-radius: 5px;
     font-family: 'Overpass', sans-serif;
+    color: hsl(0,0%,0%);
     font-size: 0.8vmax;
     line-height: 25px;
     text-transform: capitalize;
     background: hsl(0,0%,100%);
     display: none;
 }
-.drop-down-content li {
+.drop-down1-content, .drop-down2-content, .drop-down3-content li {
   list-style: none;
 }
-.drop-down-content li:hover {
+.drop-down1-content li:hover, .drop-down2-content li:hover, .drop-down3-content li:hover {
   text-decoration: underline;
   font-weight: bold;
   cursor: pointer;
 }
-.drop-down1:hover, .drop-down2:hover, .drop-down3:hover {
+.drop-down1 a:hover, .drop-down2 a:hover, .drop-down3 a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 .drop-down1:hover .drop-down1-content {
+  display: block;
+}
+.drop-down2:hover .drop-down2-content {
+  display: block;
+}
+.drop-down3:hover .drop-down3-content {
   display: block;
 }
 
