@@ -55,10 +55,9 @@ header nav {
     font-family: 'Overpass', sans-serif;
     color: hsl(0,0%,0%);
     font-size: 0.8vmax;
-    line-height: 25px;
+    line-height: 3vmax;
     text-transform: capitalize;
     background: hsl(0,0%,100%);
-    display: fixed;
     visibility: hidden;
 }
 .drop-down1:hover .drop-down1-content {
@@ -109,7 +108,7 @@ header nav {
   cursor: pointer;
 }
 .heading {
-  padding-top: 5vmin;
+  margin-top: -3vmin;
   text-align: center;
   font-family: 'Overpass', sans-serif;
   font-size: 3vmax;
@@ -289,4 +288,26 @@ footer li {
 footer .button-type:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media(max-width: 600px) {
+
+  header nav{
+    flex-direction: column;
+  }
+  .company-details {
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .drop-down1, .drop-down2, .drop-down3 {
+    display: none;
+  }
+  .account-btn {
+    display: none;
+  }
+  .heading {
+    margin-top: 5vmin;
+  }
 }
