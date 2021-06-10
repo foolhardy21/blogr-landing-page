@@ -22,8 +22,7 @@ function addHamburger(width) {
 
 function removeHamburger(width) {
   if(width.matches) {
-    console.log(hamburgerLogo)
+    //console.log(hamburgerLogo)
     hamburgerLogo.remove()
   }
-
 }

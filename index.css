@@ -296,7 +296,6 @@ footer .button-type:hover {
     flex-direction: column;
   }
   .company-details {
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -309,5 +308,75 @@ footer .button-type:hover {
   }
   .heading {
     margin-top: 5vmin;
+    font-size: 5vmax;
+    text-align: center;
   }
+  .subheading {
+    font-size: 3vmax;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .startfree-btn {
+    margin-right: 3vmin;
+  }
+  .future-design-section {
+    background-position: 50% 20%;
+  }
+  .future-design-section h3 {
+    font-size: 5vmax;
+  }
+  .future-design-text {
+    margin-top: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .future-design-section article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    margin-bottom: 5vmax;
+  }
+  .future-design-text h4 {
+    font-size: 3vmax;
+    text-align: center;
+  }
+  .future-design-section p {
+    margin-top: 1vmax;
+    font-size: 1.8vmax;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .infra-section {
+    display: flex;
+    flex-direction: column;
+    background-size: 85vmax 80vmax,100%;
+    /* background-repeat: no-repeat; */
+    background-position: 0px -150px,100%;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 30vh;
+  }
+  .infra-section img {
+    width: 70vw;
+    margin-left:0;
+    height: auto;
+    margin-top: -170px;
+  }
+  .infra-section div{
+    width: 70vw;
+    margin-top: 25vmin;
+    margin-bottom: 20vmin;
+  }
+  .infra-section h1 {
+    font-size: 5vmax;
+    text-align: center;
+  }
+  .infra-section p{
+    margin-top: 1vmax;
+    text-align: center;
+    font-size: 1.8vmax;
+    letter-spacing: 1px;
+    line-height: 3.5vmin;
+  }
+
 }
